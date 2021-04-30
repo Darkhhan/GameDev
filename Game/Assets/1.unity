@@ -419,9 +419,9 @@ GameObject:
   m_Component:
   - component: {fileID: 789454270}
   - component: {fileID: 789454269}
-  - component: {fileID: 789454273}
   - component: {fileID: 789454272}
   - component: {fileID: 789454271}
+  - component: {fileID: 789454273}
   m_Layer: 0
   m_Name: spears
   m_TagString: Untagged
@@ -583,10 +583,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 789454268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab8a01387cde5845bfc888d2c276997, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cc5e98310198054e9eb4b299b4b3133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jump_button: Jump
+  EnemySpeed: 5
+  positions:
+  - {x: -10.15, y: -9.148108, z: 0}
+  - {x: 8, y: -9.148108, z: 0}
 --- !u!1 &839633181
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,9 +1538,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1463499167}
   - component: {fileID: 1463499166}
-  - component: {fileID: 1463499169}
   - component: {fileID: 1463499170}
   - component: {fileID: 1463499168}
+  - component: {fileID: 1463499169}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1639,10 +1642,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1463499165}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab8a01387cde5845bfc888d2c276997, type: 3}
+  m_Script: {fileID: 11500000, guid: 076954e9c3d19bd47a96adb61e626f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Jump_button: Jump
+  speed: 2.5
+  jump: 5
+  JumpButton: Jump
 --- !u!68 &1463499170
 EdgeCollider2D:
   m_ObjectHideFlags: 0
